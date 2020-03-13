@@ -4,28 +4,29 @@
 public class Main {
 
     public static void main(String[] args) {
-        Book book1 = new Book();
-        book1.setName("The Mamba Mentality: How I Play");
-        book1.setAuthor("Andrew D. Bernstein");
-        book1.setPages("208 pages");
-        book1.setISBN("9780374201234");
-        book1.setPublisher("McD");
-        book1.showinfo();
+        Hero hero1 = new Hero();
+        hero1.setname("Frank");
+        hero1.setgender("male");
+        hero1.setsign("Aries");
+        hero1.setheight("174");
+        hero1.setage("17");
+        hero1.showinfo();
         System.out.println();
-        Book book2 = new Book();
-        book2.setName("Thirteen Reasons Why");
-        book2.setAuthor("Asher, Jay");
-        book2.setPages("320 pages");
-        book2.setISBN("9780451478290");
-        book2.setPublisher("Razorbill");
-        book2.showinfo();
+        Hero hero2 = new Hero();
+        hero2.setname("Jack");
+        hero2.setgender("male");
+        hero2.setsign("Leo");
+        hero2.setheight("180");
+        hero1.setage("22");
+        hero2.showinfo();
         System.out.println();
-        Book book3 = new Book();
-        book3.setName("Less");
-        book3.setAuthor("Greer, Andrew Sean");
-        book3.setPages("272 pages");
-        book3.setISBN("9780316316132");
-        book3.setPublisher("Back Bay Books");
-        book3.showinfo();
+        Hero hero3 = new Hero();
+        hero3.setname("Joker");
+        hero3.setgender("male");
+        hero3.setsign("Aries");
+        hero3.setheight("188");
+        hero3.setage("40");
+        hero3.showinfo();
+        System.out.println();
     }
 }
